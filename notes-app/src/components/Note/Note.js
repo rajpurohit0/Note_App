@@ -39,7 +39,6 @@ export default function Note(props) {
 
     return `${hrs}:${min} ${amPm} ${day} ${month}`;
   };
-  console.log(formatDate);
 
   const debounce=(func)=>{
     clearTimeout(timeout)
